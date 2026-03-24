@@ -30,6 +30,7 @@ from ebay_claw.review_queue.state_machine import build_transition_update, utc_no
 from ebay_claw.policies.safety import PolicyEngine
 from ebay_claw.review_queue.store import ReviewQueueStore
 from ebay_claw.security.write_guard import WriteForbiddenError
+from ebay_claw.services.comp_market import summarize_sold_comps
 from ebay_claw.services.ingestion import IngestionService
 from ebay_claw.services.inventory_movement_recorder import InventoryMovementRecorder
 from ebay_claw.services.operational_history_store import OperationalHistoryStore
