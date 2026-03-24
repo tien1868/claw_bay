@@ -1,0 +1,103 @@
+{
+  "listings": [
+    {
+      "listing_id": "L1001",
+      "title": "nice jacket mens L",
+      "price_amount": 45.0,
+      "quantity": 1,
+      "listed_on": "2025-12-01",
+      "watchers": 2,
+      "view_count": 120,
+      "brand": "Patagonia",
+      "size": "L",
+      "department": "Men",
+      "garment_type": "Jacket",
+      "color": "Navy",
+      "material": null,
+      "condition": "Pre-owned - Good",
+      "description": "Warm. Some pilling.",
+      "item_specifics": {
+        "Brand": "Patagonia",
+        "Size": "L"
+      }
+    },
+    {
+      "listing_id": "L1002",
+      "title": "vintage tee shirt XL black band tour 1990s",
+      "price_amount": 22.0,
+      "quantity": 1,
+      "listed_on": "2024-08-10",
+      "watchers": 0,
+      "view_count": 45,
+      "brand": null,
+      "size": "XL",
+      "department": "Unisex",
+      "garment_type": "T-Shirt",
+      "color": "Black",
+      "condition": "Pre-owned - Fair",
+      "description": "Single line.",
+      "item_specifics": {}
+    },
+    {
+      "listing_id": "L1003",
+      "title": "Rick Owens DRKSHDW Pants Size 48 Black",
+      "price_amount": 380.0,
+      "quantity": 1,
+      "listed_on": "2025-11-15",
+      "watchers": 5,
+      "view_count": 300,
+      "brand": "Rick Owens",
+      "size": "48",
+      "department": "Men",
+      "garment_type": "Pants",
+      "color": "Black",
+      "material": "Cotton blend",
+      "condition": "Pre-owned - Excellent",
+      "description": "Rare cut. Minimal wear.",
+      "item_specifics": {
+        "Brand": "Rick Owens",
+        "Size": "48",
+        "Color": "Black"
+      }
+    },
+    {
+      "listing_id": "L1004",
+      "title": "GAP jeans 32x32 blue",
+      "price_amount": 18.0,
+      "quantity": 1,
+      "listed_on": "2024-03-01",
+      "watchers": 0,
+      "view_count": 12,
+      "brand": "Gap",
+      "size": "32x32",
+      "department": "Men",
+      "garment_type": "Jeans",
+      "color": "Blue",
+      "condition": "Pre-owned - Good",
+      "description": "",
+      "item_specifics": {
+        "Brand": "Gap"
+      }
+    },
+    {
+      "listing_id": "L1005",
+      "title": "wool sweater M damage hole see photos",
+      "price_amount": 12.0,
+      "quantity": 1,
+      "listed_on": "2025-10-20",
+      "watchers": 1,
+      "view_count": 80,
+      "brand": "J.Crew",
+      "size": "M",
+      "department": "Men",
+      "garment_type": "Sweater",
+      "color": "Gray",
+      "condition": "Pre-owned - Fair",
+      "description": "Hole near hem disclosed.",
+      "item_specifics": {
+        "Brand": "J.Crew",
+        "Size": "M"
+      }
+    }
+  ]
+}

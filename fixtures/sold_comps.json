@@ -1,0 +1,69 @@
+{
+  "recency_window_days": 90,
+  "listing_comps": {
+    "L1002": [
+      {
+        "sold_price": 18.0,
+        "sold_date": "2025-11-01",
+        "currency": "USD",
+        "match_quality": 0.75
+      },
+      {
+        "sold_price": 20.0,
+        "sold_date": "2025-10-20",
+        "currency": "USD",
+        "match_quality": 0.72
+      }
+    ]
+  },
+  "group_comps": {
+    "patagonia|jacket|l": [
+      {
+        "sold_price": 38.0,
+        "sold_date": "2025-11-28",
+        "currency": "USD",
+        "match_quality": 0.82
+      },
+      {
+        "sold_price": 40.0,
+        "sold_date": "2025-11-15",
+        "currency": "USD",
+        "match_quality": 0.8
+      },
+      {
+        "sold_price": 42.0,
+        "sold_date": "2025-10-05",
+        "currency": "USD",
+        "match_quality": 0.78
+      }
+    ],
+    "rick owens|pants|48": [
+      {
+        "sold_price": 340.0,
+        "sold_date": "2025-12-01",
+        "currency": "USD",
+        "match_quality": 0.88
+      },
+      {
+        "sold_price": 360.0,
+        "sold_date": "2025-11-10",
+        "currency": "USD",
+        "match_quality": 0.85
+      }
+    ],
+    "gap|jeans|32x32": [
+      {
+        "sold_price": 22.0,
+        "sold_date": "2025-11-20",
+        "currency": "USD",
+        "match_quality": 0.7
+      },
+      {
+        "sold_price": 24.0,
+        "sold_date": "2025-10-15",
+        "currency": "USD",
+        "match_quality": 0.68
+      }
+    ]
+  }
+}
