@@ -66,7 +66,28 @@ pip install -e ".[dev]"
 
 ---
 
-## Step 3: Configure Sandbox Credentials (1 minute)
+## Step 3: Test OAuth Credentials (Optional but Recommended)
+
+**Before configuring the full app**, verify your credentials work:
+
+```powershell
+# Copy template
+cp api.env.sandbox.template api.env
+
+# Edit with your Sandbox credentials
+notepad api.env
+
+# Test OAuth
+python scripts/test_ebay_sandbox_oauth.py
+```
+
+If you see **[PASS]**, your credentials are valid. If **[FAIL]**, follow the remediation steps.
+
+See `OAUTH_DIAGNOSTIC.md` for detailed troubleshooting.
+
+---
+
+## Step 4: Configure Sandbox Credentials (1 minute)
 
 ```powershell
 # Copy template
@@ -94,7 +115,7 @@ Save and close.
 
 ---
 
-## Step 4: Add Sandbox Inventory (Optional)
+## Step 5: Add Sandbox Inventory (Optional)
 
 If your Sandbox test user has no listings:
 
@@ -106,7 +127,7 @@ Or just use fixture mode (Claw Bay will use sample data).
 
 ---
 
-## Step 5: Run Claw Bay (30 seconds)
+## Step 6: Run Claw Bay (30 seconds)
 
 **Windows PowerShell:**
 ```powershell
@@ -125,7 +146,7 @@ streamlit run ebay_claw/app/streamlit_app.py
 
 ---
 
-## Step 6: Verify Sandbox Connection
+## Step 7: Verify Sandbox Connection
 
 1. Dashboard opens at http://localhost:8501
 
@@ -152,10 +173,19 @@ streamlit run ebay_claw/app/streamlit_app.py
 
 **Problem:** Unauthorized when syncing
 
+**Diagnostic:**
+```powershell
+python scripts/test_ebay_sandbox_oauth.py
+```
+
 **Fix:**
+- Run the OAuth diagnostic tool (see above)
+- Follow the specific remediation steps it provides
 - Verify you copied the **Sandbox** Client ID/Secret (not production)
 - Confirm `EBAY_CLAW_EBAY_USE_SANDBOX=true` in api.env
 - Get a fresh refresh token from https://developer.ebay.com/my/auth/
+
+See `OAUTH_DIAGNOSTIC.md` for detailed troubleshooting.
 
 ### No Listings Found
 

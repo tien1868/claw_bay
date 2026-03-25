@@ -30,3 +30,4 @@ include = ["ebay_claw*"]
 testpaths = ["tests"]
 pythonpath = ["."]
 addopts = "-q"
+norecursedirs = ["scripts", ".git", ".venv", "venv", "__pycache__"]
